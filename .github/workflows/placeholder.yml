@@ -1,0 +1,8 @@
+name: placeholder
+on: workflow_dispatch
+permissions: {}
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "rehearsal placeholder, never triggered automatically"
